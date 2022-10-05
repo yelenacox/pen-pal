@@ -1,0 +1,42 @@
+{
+    "authors": [
+        {
+            "id": 1,
+            "name": "Maya Angelou",
+            "email": "maya@maya.com"
+        },
+        {
+            "id": 2,
+            "name": "Mark Twain",
+            "email": "mark@mark.com"
+        },
+        {
+            "id": 3,
+            "name": "Grace Hopper",
+            "email": "grace@grace.com"
+        }
+    ],
+    "topics": [
+        {
+            "id": 1,
+            "topic": "Business"
+        },
+        {
+            "id": 2,
+            "topic": "Friendly"
+        },
+        {
+            "id": 3,
+            "topic": "Family"
+        },
+        {
+            "id": 4,
+            "topic": "Congratulations"
+        },
+        {
+            "id": 5,
+            "topic": "Condolences"
+        }
+    ],
+    "letters": []
+}
