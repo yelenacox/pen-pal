@@ -1,14 +1,15 @@
 const applicationState = {
-    letters: []
+    letters: [],
 }
-
 const API = "http://localhost:8088"
+
+const mainContainer = document.querySelector("#container")
 
 export const sendLetter = (typedLetter) => {
     const fetchOptions = {
         method: "POST",
         headers: {
-            "Content-Type": "application.json"
+            "Content-Type": "application/json"
         },
         body: JSON.stringify(typedLetter)
     }

@@ -1,8 +1,45 @@
-.letterBody {
-    height: 200px;
-    width: 80%;
+.field {
+    margin-bottom: 30px;
 }
 
-/* .authors {
-    width: 80%;
-} */
+.letterBody {
+    height: 250px;
+    width: 70%;
+    padding: 4px;
+}
+
+.letter {
+    display: flex;
+    flex-direction: column;
+    background-color: #bee5f3;
+    margin: 20px;
+    padding: 30px 30px 10px 30px;
+}
+
+.child {
+    padding: 10px;
+}
+
+.topic {
+    font-size: 10px;
+    background-color: #FCE3C2;
+    align-self: flex-start;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px gray;
+    margin-left: 9px;
+    padding: 8px;
+}
+
+.sentDate {
+    font-size: 12px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid rgb(17, 17, 165);
+    }
+
+.authors,.recipients,.sentLetters {
+    width: 70%;
+}

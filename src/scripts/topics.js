@@ -1,7 +1,5 @@
 import { getTopics } from "./dataAccess.js";
 
-
-
 export const Topics = () => {
 
     const topics = getTopics()
@@ -9,7 +7,7 @@ export const Topics = () => {
     let html = 
     topics.map(topic => {
         return `
-        <input type="radio" name="topic" value="${topic.id}" /> ${topic.topic}
+        <input type="radio" name="topic" value="topic--${topic.id}" /> ${topic.topic}
         `
     }).join("")
 
