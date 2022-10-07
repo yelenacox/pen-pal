@@ -1,42 +1,67 @@
 {
-    "authors": [
-        {
-            "id": 1,
-            "name": "Maya Angelou",
-            "email": "maya@maya.com"
-        },
-        {
-            "id": 2,
-            "name": "Mark Twain",
-            "email": "mark@mark.com"
-        },
-        {
-            "id": 3,
-            "name": "Grace Hopper",
-            "email": "grace@grace.com"
-        }
-    ],
-    "topics": [
-        {
-            "id": 1,
-            "topic": "Business"
-        },
-        {
-            "id": 2,
-            "topic": "Friendly"
-        },
-        {
-            "id": 3,
-            "topic": "Family"
-        },
-        {
-            "id": 4,
-            "topic": "Congratulations"
-        },
-        {
-            "id": 5,
-            "topic": "Condolences"
-        }
-    ],
-    "letters": []
+  "authors": [
+    {
+      "id": 1,
+      "name": "Maya Angelou",
+      "email": "maya@maya.com"
+    },
+    {
+      "id": 2,
+      "name": "Mark Twain",
+      "email": "mark@mark.com"
+    },
+    {
+      "id": 3,
+      "name": "Grace Hopper",
+      "email": "grace@grace.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Business"
+    },
+    {
+      "id": 2,
+      "topic": "Friendly"
+    },
+    {
+      "id": 3,
+      "topic": "Family"
+    },
+    {
+      "id": 4,
+      "topic": "Congratulations"
+    },
+    {
+      "id": 5,
+      "topic": "Condolences"
+    }
+  ],
+  "letters": [
+    {
+      "authorId": 1,
+      "letterBody": "Is this correct?",
+      "topicId": 4,
+      "recipientId": 3,
+      "dateSent": "10/6/2022",
+      "id": 1
+    },
+    {
+      "authorId": 2,
+      "letterBody": "Woo hoo! \nThe correct topics do be showing up now.\nExcellent.",
+      "topicId": 5,
+      "recipientId": 1,
+      "dateSent": "10/6/2022",
+      "id": 2
+    },
+    {
+      "authorId": 3,
+      "letterBody": "hmmmm",
+      "topicId": 2,
+      "recipientId": 2,
+      "dateSent": "10/6/2022",
+      "id": 3
+    }
+  ]
 }
